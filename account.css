@@ -73,8 +73,8 @@ nav{
 /*form*/
 .form{
   padding: 30px;
-  width: 50%;
-  height:40%;
+  width: 40%;
+  height:30%;
   border-radius: 10px;
 	font-size:25px;
 	background-color: #ff8c0067;
@@ -101,4 +101,10 @@ button{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	margin-right:20px;
 	border:0px;
+}
+body{
+  background-color: white;
+  color:purple;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:center;
 }
