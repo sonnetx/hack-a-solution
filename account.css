@@ -1,0 +1,104 @@
+/*general*/
+body{
+ margin:0px;
+ padding:0px;
+ background-color:#FFFFFF; 
+}
+ul{
+ list-style:none;
+}
+a{
+ text-decoration:none;
+}
+#main{
+ padding:30px 50px;
+ position:relative;
+ width:100%;
+ height: 100vh;
+ box-sizing: border-box;
+ background-size: 800px;
+ background-position: right bottom;
+ background-repeat: no-repeat;
+ background-image: url("Street_food.png");
+ /*background-color: #edf1fd;*/
+ background-color: #FFFFFF;
+}
+nav{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ text-transform: uppercase;
+ font-weight: 600;
+ letter-spacing: 2px;
+ font-family: calibri;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width:100%;
+ box-sizing: border-box;
+ padding: 10px 50px;
+ background-color: #ff7b00;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+ z-index: 1;
+}
+ 
+.menu{
+ display: flex;
+}
+.menu li a{
+ padding: 10px 15px;
+ color:#F4F7FF;
+ font-size: 12px;
+ 
+}
+.lang{
+ color:#000000;
+}
+.logo{
+ font-size: 25px;
+ font-weight: bold;
+ color:#000000;
+ font-family:Poppins;
+}
+.toggle{
+ display: none;
+}
+.active a,
+.menu li a:hover{
+ /**background-color:#6c707c; */
+ color:#000000!important;
+ font-weight: bold;
+ transition: all ease 0.4s;
+}
+/*form*/
+.form{
+  padding: 30px;
+  width: 50%;
+  height:40%;
+  border-radius: 10px;
+	font-size:25px;
+	background-color: #ff8c0067;
+	margin:auto;
+}
+button:hover{
+  background-color: purple;
+}
+input{
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom-color: purple;
+	border-radius:8px;
+	background-color: rgba(128, 0, 128, 0.11);
+}
+button{
+  background-color:  #ff8c00 ;
+  color: white;
+  height:50px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-right:20px;
+	border:0px;
+}
